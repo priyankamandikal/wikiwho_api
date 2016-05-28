@@ -782,7 +782,7 @@ if __name__ == '__main__':
 
     #rev = 620303041
 
-    wikiwho = Wikiwho("Gamergate")
+    wikiwho = Wikiwho("Gamergate Controversy")
 
     #url ='http://en.wikipedia.org/w/index.php?title=Special:Export'
     #	timestamp = '2004-04-20T11:56:34Z'

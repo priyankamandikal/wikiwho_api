@@ -15,9 +15,9 @@ logging.basicConfig(filename='log_api_api.log',level=logging.DEBUG, format='%(as
 
 #import msgpack
 
-import cgi
+#import cgi
 
-fs=cgi.FieldStorage()
+#fs=cgi.FieldStorage()
 
 print "Content-Type: application/json"
 print
@@ -70,6 +70,7 @@ def getLatestRevId(article_name):
     response = json.loads(response)
     pageid = response["query"]["pages"].keys()[0]
     revid = response["query"]["pages"][pageid]["revisions"][0]["revid"]
+    print [revid]
     
     conn.close()
     return [revid] 
@@ -83,16 +84,17 @@ if __name__ == '__main__':
     # format = "json"
 
     try:
-        art = fs.getvalue('name') #for running through browser
+        art = str(sys.argv[1])#"William_Hamilton_Maxwell"#fs.getvalue('name') #for running through browser
+        print art
         print 'pass 1\n'
     except:
         Wikiwho.printFail(message="Name missing!")
 
-    try:
-        revisions = [int(x) for x in fs.getvalue('revid').split('|')] #for running through browser
-        print 'pass 2\n'
-    except:
-        revisions = getLatestRevId(art)
+    #try:
+    #    revisions = [int(x) for x in fs.getvalue('revid').split('|')] #for running through browser
+    #    print 'pass 2\n'
+    #except:
+    revisions = getLatestRevId(art)
         #Wikiwho.printFail(message="Revision ids missing!")
 
     if len(revisions) > 2:
@@ -102,11 +104,12 @@ if __name__ == '__main__':
         if revisions[1] <= revisions[0]:
             Wikiwho.printFail(message="Second revision id has to be larger than first revision id!")
 
-    try:
-        format = fs.getvalue('format')
-        print 'pass 3\n'
-    except:
-        format = "json"
+    #try:
+    #    format = fs.getvalue('format')
+    #    print 'pass 3\n'
+    #except:
+        
+    format = "json"
 
     try:
         par = set(fs.getvalue('params').split('|'))
@@ -134,21 +137,17 @@ if __name__ == '__main__':
     #art = "test4"
 
     logging.debug("trying to load pickle")
+ 
     try:
-        #see if exists in primary disk, load, extend
-        f = open("pickle_api/" + art + ".p",'rb')
+        #see if exists already, load, extend
+        f = open("./" + art + ".p",'rb')
         wikiwho = cPickle.load(f)
-        path = "pickle_api/"
+        path = "./"
+
     except:
-        try:
-            # see if exists in secondary  disk, load, extend
-            f = open("../disk2/pickle_api_2/" + art + ".p",'rb')
-            wikiwho = cPickle.load(f)
-            path = "../disk2/pickle_api_2/"
-        except:
-            #create new pickle in secondary disk
-            wikiwho = Wikiwho(art)
-            path = "../disk2/pickle_api_2/"
+        #create new pickle
+        wikiwho = Wikiwho(art)
+        path = "./"
 
 
     assert (wikiwho.article == art)
