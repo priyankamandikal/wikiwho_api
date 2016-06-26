@@ -21,6 +21,8 @@ class Word(object):
         #self.deleted = []
         self.internal_id = 0
         #self.used = []
+        #added
+        self.time = 0
         
     
     def __repr__(self):

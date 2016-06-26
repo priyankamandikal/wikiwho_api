@@ -85,8 +85,6 @@ if __name__ == '__main__':
 
     try:
         art = str(sys.argv[1])#"William_Hamilton_Maxwell"#fs.getvalue('name') #for running through browser
-        print art
-        print 'pass 1\n'
     except:
         Wikiwho.printFail(message="Name missing!")
 

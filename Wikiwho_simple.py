@@ -62,7 +62,6 @@ class Wikiwho:
         self.revision_prev = Revision()
 
     def analyseArticle(self, revisions):
-
         # Container of revisions.
 
 
@@ -134,6 +133,10 @@ class Wikiwho:
                 revision_curr.wikipedia_id = int(revision['revid'])
                 revision_curr.length = text_len
                 revision_curr.time = revision['timestamp']
+
+                #added
+                #print "revision_curr.time ", revision_curr.time
+
                     #datetime.datetime.utcfromtimestamp(revision['timestamp']).isoformat()
 
                 # Some revisions don't have contributor.
@@ -524,6 +527,11 @@ class Wikiwho:
                     word_curr.author_name = revision_curr.contributor_name
                     word_curr.revision = revision_curr.wikipedia_id
                     word_curr.value = word
+
+                    #added
+                    word_curr.time = revision_curr.time
+
+
                     #word_curr.freq.append(revision_curr.wikipedia_id)
                     word_curr.internal_id = GLOBAL_ID
                     sentence_curr.words.append(word_curr)
@@ -579,6 +587,10 @@ class Wikiwho:
                             word_curr.revision = revision_curr.wikipedia_id
                             word_curr.internal_id = GLOBAL_ID
                             #word_curr.freq.append(revision_curr.wikipedia_id)
+
+                            #added
+                            word_curr.time = revision_curr.time
+                    
                             sentence_curr.words.append(word_curr)
                             GLOBAL_ID = GLOBAL_ID + 1
 
@@ -594,6 +606,11 @@ class Wikiwho:
                     word_curr.author_name = revision_curr.contributor_name
                     word_curr.revision = revision_curr.wikipedia_id
                     #word_curr.freq.append(revision_curr.wikipedia_id)
+
+                    #added
+                    word_curr.time = revision_curr.time
+                    
+
                     sentence_curr.words.append(word_curr)
                     word_curr.internal_id = GLOBAL_ID
                     GLOBAL_ID = GLOBAL_ID + 1
@@ -618,13 +635,24 @@ class Wikiwho:
 
     def printRevision(self, revisions, params, format = "json"):
 
-
+        #print "revisions"
+        #print revisions, '\n'
+        
         response = {}
         response["success"] = "true"
 
         response["revisions"] = {}
         response["article"] = self.article
+        
+        #print "self.article"
+        #print self.article, '\n'
+
+        #print "self.revisions"
+        #print self.revisions, '\n'
+
         for revid in self.revisions:
+
+            #print "revid", revid, '\n'
 
             if len(revisions) == 2:
                 if revid < revisions[0] or revid > revisions[1]:
@@ -635,6 +663,7 @@ class Wikiwho:
 
 
             revision = self.revisions[revid]
+            #print 'revision', revision, '\n'
 
             response["revisions"][revid] = {"author":revision.contributor_name.encode("utf-8"), "time":revision.time, "tokens":[]}
             dict_list =[]
@@ -667,6 +696,8 @@ class Wikiwho:
                             ss = word.value
                             dict_json['str'] = ss#.encode('utf-8')
                             dict_json['revid'] = str(word.revision)
+                            #added
+                            dict_json['time'] = word.time
                             if 'author' in params:
                                 dict_json['author'] = str(word.author_name.encode("utf-8"))
                             if 'tokenid' in params:

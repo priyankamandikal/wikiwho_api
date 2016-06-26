@@ -115,3 +115,293 @@
 05-28 17:34 root         DEBUG    STARTING NOW
 05-28 17:34 root         DEBUG    final rvcontinue 20160202033817|702873067
 05-28 17:34 root         DEBUG    20160202033817|702873067
+06-26 22:30 root         DEBUG    --------
+06-26 22:30 root         DEBUG    Seacology
+06-26 22:30 root         DEBUG    [727066344]
+06-26 22:30 root         DEBUG    trying to load pickle
+06-26 22:30 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): en.wikipedia.org
+06-26 22:30 requests.packages.urllib3.connectionpool DEBUG    "POST /w/api.php?action=login&lgname=&lgpassword=&format=json HTTP/1.1" 200 229
+06-26 22:30 requests.packages.urllib3.connectionpool DEBUG    "POST /w/api.php?action=login&lgname=&lgpassword=&format=json&lgtoken=837bb5871e56e55d4ec44dc7c852210257700a15+%5C HTTP/1.1" 200 53
+06-26 22:30 root         DEBUG    STARTING NOW
+06-26 22:30 root         DEBUG    doing partial download
+06-26 22:30 root         DEBUG    0
+06-26 22:30 requests.packages.urllib3.connectionpool DEBUG    "GET /w/api.php?rvdir=newer&titles=Seacology&continue=&rvlimit=max&format=json&action=query&rvprop=content%7Cids%7Ctimestamp%7Csha1%7Ccomment%7Cflags%7Cuser%7Cuserid&prop=revisions HTTP/1.1" 200 16063
+06-26 22:30 root         DEBUG    doing partial download
+06-26 22:30 root         DEBUG    20110802091457|442647603
+06-26 22:30 requests.packages.urllib3.connectionpool DEBUG    "GET /w/api.php?rvcontinue=20110802091457%7C442647603&rvdir=newer&titles=Seacology&continue=&rvlimit=max&format=json&action=query&rvprop=content%7Cids%7Ctimestamp%7Csha1%7Ccomment%7Cflags%7Cuser%7Cuserid&prop=revisions HTTP/1.1" 200 408003
+06-26 22:30 root         DEBUG    doing partial download
+06-26 22:30 root         DEBUG    20110803223115|442918370
+06-26 22:30 requests.packages.urllib3.connectionpool DEBUG    "GET /w/api.php?rvcontinue=20110803223115%7C442918370&rvdir=newer&titles=Seacology&continue=&rvlimit=max&format=json&action=query&rvprop=content%7Cids%7Ctimestamp%7Csha1%7Ccomment%7Cflags%7Cuser%7Cuserid&prop=revisions HTTP/1.1" 200 784947
+06-26 22:30 root         DEBUG    doing partial download
+06-26 22:30 root         DEBUG    20110913223308|450373483
+06-26 22:30 requests.packages.urllib3.connectionpool DEBUG    "GET /w/api.php?rvcontinue=20110913223308%7C450373483&rvdir=newer&titles=Seacology&continue=&rvlimit=max&format=json&action=query&rvprop=content%7Cids%7Ctimestamp%7Csha1%7Ccomment%7Cflags%7Cuser%7Cuserid&prop=revisions HTTP/1.1" 200 880367
+06-26 22:30 root         DEBUG    doing partial download
+06-26 22:30 root         DEBUG    20130820181508|569450066
+06-26 22:30 requests.packages.urllib3.connectionpool DEBUG    "GET /w/api.php?rvcontinue=20130820181508%7C569450066&rvdir=newer&titles=Seacology&continue=&rvlimit=max&format=json&action=query&rvprop=content%7Cids%7Ctimestamp%7Csha1%7Ccomment%7Cflags%7Cuser%7Cuserid&prop=revisions HTTP/1.1" 200 910349
+06-26 22:30 root         DEBUG    doing partial download
+06-26 22:30 root         DEBUG    20160616165712|725592242
+06-26 22:30 requests.packages.urllib3.connectionpool DEBUG    "GET /w/api.php?rvcontinue=20160616165712%7C725592242&rvdir=newer&titles=Seacology&continue=&rvlimit=max&format=json&action=query&rvprop=content%7Cids%7Ctimestamp%7Csha1%7Ccomment%7Cflags%7Cuser%7Cuserid&prop=revisions HTTP/1.1" 200 240468
+06-26 22:31 root         DEBUG    final rvcontinue 20160626114602|727066345
+06-26 22:31 root         DEBUG    20160626114602|727066345
+06-26 22:31 root         DEBUG    pickling
+06-26 22:44 root         DEBUG    --------
+06-26 22:44 root         DEBUG    Kendhoo
+06-26 22:44 root         DEBUG    [702921623]
+06-26 22:44 root         DEBUG    trying to load pickle
+06-26 22:44 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): en.wikipedia.org
+06-26 22:44 requests.packages.urllib3.connectionpool DEBUG    "POST /w/api.php?action=login&lgname=&lgpassword=&format=json HTTP/1.1" 200 231
+06-26 22:44 requests.packages.urllib3.connectionpool DEBUG    "POST /w/api.php?action=login&lgname=&lgpassword=&format=json&lgtoken=7129e4af65dea6500b6439f7d26468a457700d8f+%5C HTTP/1.1" 200 53
+06-26 22:44 root         DEBUG    STARTING NOW
+06-26 22:44 root         DEBUG    doing partial download
+06-26 22:44 root         DEBUG    0
+06-26 22:44 requests.packages.urllib3.connectionpool DEBUG    "GET /w/api.php?rvdir=newer&titles=Kendhoo&continue=&rvlimit=max&format=json&action=query&rvprop=content%7Cids%7Ctimestamp%7Csha1%7Ccomment%7Cflags%7Cuser%7Cuserid&prop=revisions HTTP/1.1" 200 10236
+06-26 22:44 root         DEBUG    doing partial download
+06-26 22:44 root         DEBUG    20120316125904|482186980
+06-26 22:44 requests.packages.urllib3.connectionpool DEBUG    "GET /w/api.php?rvcontinue=20120316125904%7C482186980&rvdir=newer&titles=Kendhoo&continue=&rvlimit=max&format=json&action=query&rvprop=content%7Cids%7Ctimestamp%7Csha1%7Ccomment%7Cflags%7Cuser%7Cuserid&prop=revisions HTTP/1.1" 200 4558
+06-26 22:44 root         DEBUG    final rvcontinue 20160202121057|702921624
+06-26 22:44 root         DEBUG    20160202121057|702921624
+06-26 22:44 root         DEBUG    pickling
+06-26 23:13 root         DEBUG    --------
+06-26 23:13 root         DEBUG    Kendhoo
+06-26 23:13 root         DEBUG    [702921623]
+06-26 23:13 root         DEBUG    trying to load pickle
+06-26 23:13 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): en.wikipedia.org
+06-26 23:13 requests.packages.urllib3.connectionpool DEBUG    "POST /w/api.php?action=login&lgname=&lgpassword=&format=json HTTP/1.1" 200 230
+06-26 23:13 requests.packages.urllib3.connectionpool DEBUG    "POST /w/api.php?action=login&lgname=&lgpassword=&format=json&lgtoken=719c272a545b89b1fc22eea5130ab58157701435+%5C HTTP/1.1" 200 53
+06-26 23:13 root         DEBUG    STARTING NOW
+06-26 23:13 root         DEBUG    final rvcontinue 20160202121057|702921624
+06-26 23:13 root         DEBUG    20160202121057|702921624
+06-26 23:21 root         DEBUG    --------
+06-26 23:21 root         DEBUG    Kendhoo
+06-26 23:21 root         DEBUG    [727101447]
+06-26 23:21 root         DEBUG    trying to load pickle
+06-26 23:21 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): en.wikipedia.org
+06-26 23:21 requests.packages.urllib3.connectionpool DEBUG    "POST /w/api.php?action=login&lgname=&lgpassword=&format=json HTTP/1.1" 200 230
+06-26 23:21 requests.packages.urllib3.connectionpool DEBUG    "POST /w/api.php?action=login&lgname=&lgpassword=&format=json&lgtoken=2afdf9f86b7e61d2a18f998a178bad6c57701613+%5C HTTP/1.1" 200 53
+06-26 23:21 root         DEBUG    STARTING NOW
+06-26 23:21 root         DEBUG    doing partial download
+06-26 23:21 root         DEBUG    0
+06-26 23:21 requests.packages.urllib3.connectionpool DEBUG    "GET /w/api.php?rvdir=newer&titles=Kendhoo&continue=&rvlimit=max&format=json&action=query&rvprop=content%7Cids%7Ctimestamp%7Csha1%7Ccomment%7Cflags%7Cuser%7Cuserid&prop=revisions HTTP/1.1" 200 10236
+06-26 23:21 root         DEBUG    doing partial download
+06-26 23:21 root         DEBUG    20120316125904|482186980
+06-26 23:21 requests.packages.urllib3.connectionpool DEBUG    "GET /w/api.php?rvcontinue=20120316125904%7C482186980&rvdir=newer&titles=Kendhoo&continue=&rvlimit=max&format=json&action=query&rvprop=content%7Cids%7Ctimestamp%7Csha1%7Ccomment%7Cflags%7Cuser%7Cuserid&prop=revisions HTTP/1.1" 200 4688
+06-26 23:21 root         DEBUG    final rvcontinue 20160626175058|727101448
+06-26 23:21 root         DEBUG    20160626175058|727101448
+06-26 23:21 root         DEBUG    pickling
+06-27 00:52 root         DEBUG    --------
+06-27 00:52 root         DEBUG    Kendhoo
+06-27 00:52 root         DEBUG    [727101447]
+06-27 00:52 root         DEBUG    trying to load pickle
+06-27 00:52 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): en.wikipedia.org
+06-27 00:52 requests.packages.urllib3.connectionpool DEBUG    "POST /w/api.php?action=login&lgname=&lgpassword=&format=json HTTP/1.1" 200 230
+06-27 00:52 requests.packages.urllib3.connectionpool DEBUG    "POST /w/api.php?action=login&lgname=&lgpassword=&format=json&lgtoken=98bdb634449d15b5a89e7ac92f22816c57702b7c+%5C HTTP/1.1" 200 53
+06-27 00:52 root         DEBUG    STARTING NOW
+06-27 00:52 root         DEBUG    final rvcontinue 20160626175058|727101448
+06-27 00:52 root         DEBUG    20160626175058|727101448
+06-27 00:53 root         DEBUG    --------
+06-27 00:53 root         DEBUG    Kendhoo
+06-27 00:53 root         DEBUG    [727101447]
+06-27 00:53 root         DEBUG    trying to load pickle
+06-27 00:53 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): en.wikipedia.org
+06-27 00:53 requests.packages.urllib3.connectionpool DEBUG    "POST /w/api.php?action=login&lgname=&lgpassword=&format=json HTTP/1.1" 200 227
+06-27 00:53 requests.packages.urllib3.connectionpool DEBUG    "POST /w/api.php?action=login&lgname=&lgpassword=&format=json&lgtoken=36caabca0adbd3b686354b08adab25fa57702bc4+%5C HTTP/1.1" 200 53
+06-27 00:53 root         DEBUG    STARTING NOW
+06-27 00:53 root         DEBUG    final rvcontinue 20160626175058|727101448
+06-27 00:53 root         DEBUG    20160626175058|727101448
+06-27 00:57 root         DEBUG    --------
+06-27 00:57 root         DEBUG    Kendhoo
+06-27 00:57 root         DEBUG    [727101447]
+06-27 00:57 root         DEBUG    trying to load pickle
+06-27 00:57 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): en.wikipedia.org
+06-27 00:57 requests.packages.urllib3.connectionpool DEBUG    "POST /w/api.php?action=login&lgname=&lgpassword=&format=json HTTP/1.1" 200 231
+06-27 00:57 requests.packages.urllib3.connectionpool DEBUG    "POST /w/api.php?action=login&lgname=&lgpassword=&format=json&lgtoken=6dec602b1e3b991fc47f72114ba557cd57702ca9+%5C HTTP/1.1" 200 53
+06-27 00:57 root         DEBUG    STARTING NOW
+06-27 00:57 root         DEBUG    final rvcontinue 20160626175058|727101448
+06-27 00:57 root         DEBUG    20160626175058|727101448
+06-27 01:01 root         DEBUG    --------
+06-27 01:01 root         DEBUG    Kendhoo
+06-27 01:01 root         DEBUG    [727101447]
+06-27 01:01 root         DEBUG    trying to load pickle
+06-27 01:01 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): en.wikipedia.org
+06-27 01:01 requests.packages.urllib3.connectionpool DEBUG    "POST /w/api.php?action=login&lgname=&lgpassword=&format=json HTTP/1.1" 200 230
+06-27 01:01 requests.packages.urllib3.connectionpool DEBUG    "POST /w/api.php?action=login&lgname=&lgpassword=&format=json&lgtoken=357c604c761eb7b4c7387e437f38e12057702d93+%5C HTTP/1.1" 200 53
+06-27 01:01 root         DEBUG    STARTING NOW
+06-27 01:01 root         DEBUG    final rvcontinue 20160626175058|727101448
+06-27 01:01 root         DEBUG    20160626175058|727101448
+06-27 01:08 root         DEBUG    --------
+06-27 01:08 root         DEBUG    Kendhoo
+06-27 01:08 root         DEBUG    [727101447]
+06-27 01:08 root         DEBUG    trying to load pickle
+06-27 01:08 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): en.wikipedia.org
+06-27 01:08 requests.packages.urllib3.connectionpool DEBUG    "POST /w/api.php?action=login&lgname=&lgpassword=&format=json HTTP/1.1" 200 231
+06-27 01:08 requests.packages.urllib3.connectionpool DEBUG    "POST /w/api.php?action=login&lgname=&lgpassword=&format=json&lgtoken=65815acb41489c77907a6c1712d357de57702f3c+%5C HTTP/1.1" 200 53
+06-27 01:08 root         DEBUG    STARTING NOW
+06-27 01:08 root         DEBUG    final rvcontinue 20160626175058|727101448
+06-27 01:08 root         DEBUG    20160626175058|727101448
+06-27 01:11 root         DEBUG    --------
+06-27 01:11 root         DEBUG    Kendhoo
+06-27 01:11 root         DEBUG    [727101447]
+06-27 01:11 root         DEBUG    trying to load pickle
+06-27 01:11 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): en.wikipedia.org
+06-27 01:11 requests.packages.urllib3.connectionpool DEBUG    "POST /w/api.php?action=login&lgname=&lgpassword=&format=json HTTP/1.1" 200 230
+06-27 01:11 requests.packages.urllib3.connectionpool DEBUG    "POST /w/api.php?action=login&lgname=&lgpassword=&format=json&lgtoken=fc05933af1451dd1675d9fab63f8276957702ff4+%5C HTTP/1.1" 200 53
+06-27 01:11 root         DEBUG    STARTING NOW
+06-27 01:11 root         DEBUG    final rvcontinue 20160626175058|727101448
+06-27 01:11 root         DEBUG    20160626175058|727101448
+06-27 01:27 root         DEBUG    --------
+06-27 01:27 root         DEBUG    Kendhoo
+06-27 01:27 root         DEBUG    [727101447]
+06-27 01:27 root         DEBUG    trying to load pickle
+06-27 01:27 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): en.wikipedia.org
+06-27 01:27 requests.packages.urllib3.connectionpool DEBUG    "POST /w/api.php?action=login&lgname=&lgpassword=&format=json HTTP/1.1" 200 230
+06-27 01:27 requests.packages.urllib3.connectionpool DEBUG    "POST /w/api.php?action=login&lgname=&lgpassword=&format=json&lgtoken=71af73ebb96ccb33a6a22cc5830fea7d577033b1+%5C HTTP/1.1" 200 53
+06-27 01:27 root         DEBUG    STARTING NOW
+06-27 01:27 root         DEBUG    final rvcontinue 20160626175058|727101448
+06-27 01:28 root         DEBUG    --------
+06-27 01:28 root         DEBUG    Kendhoo
+06-27 01:28 root         DEBUG    [727101447]
+06-27 01:28 root         DEBUG    trying to load pickle
+06-27 01:28 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): en.wikipedia.org
+06-27 01:28 requests.packages.urllib3.connectionpool DEBUG    "POST /w/api.php?action=login&lgname=&lgpassword=&format=json HTTP/1.1" 200 231
+06-27 01:28 requests.packages.urllib3.connectionpool DEBUG    "POST /w/api.php?action=login&lgname=&lgpassword=&format=json&lgtoken=9c1bb5c0c357c93f114f0254d93c1cae577033f2+%5C HTTP/1.1" 200 53
+06-27 01:28 root         DEBUG    STARTING NOW
+06-27 01:28 root         DEBUG    final rvcontinue 20160626175058|727101448
+06-27 01:29 root         DEBUG    --------
+06-27 01:29 root         DEBUG    Kendhoo
+06-27 01:29 root         DEBUG    [727101447]
+06-27 01:29 root         DEBUG    trying to load pickle
+06-27 01:29 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): en.wikipedia.org
+06-27 01:29 requests.packages.urllib3.connectionpool DEBUG    "POST /w/api.php?action=login&lgname=&lgpassword=&format=json HTTP/1.1" 200 229
+06-27 01:29 requests.packages.urllib3.connectionpool DEBUG    "POST /w/api.php?action=login&lgname=&lgpassword=&format=json&lgtoken=3cbe2973e04ce1cebaebd5aeaf16a8c357703407+%5C HTTP/1.1" 200 53
+06-27 01:29 root         DEBUG    STARTING NOW
+06-27 01:29 root         DEBUG    final rvcontinue 20160626175058|727101448
+06-27 01:31 root         DEBUG    --------
+06-27 01:31 root         DEBUG    Kendhoo
+06-27 01:31 root         DEBUG    [727101447]
+06-27 01:31 root         DEBUG    trying to load pickle
+06-27 01:31 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): en.wikipedia.org
+06-27 01:31 requests.packages.urllib3.connectionpool DEBUG    "POST /w/api.php?action=login&lgname=&lgpassword=&format=json HTTP/1.1" 200 230
+06-27 01:31 requests.packages.urllib3.connectionpool DEBUG    "POST /w/api.php?action=login&lgname=&lgpassword=&format=json&lgtoken=06886b972a607be0114804c8270ef7b15770348d+%5C HTTP/1.1" 200 53
+06-27 01:31 root         DEBUG    STARTING NOW
+06-27 01:31 root         DEBUG    final rvcontinue 20160626175058|727101448
+06-27 01:38 root         DEBUG    --------
+06-27 01:38 root         DEBUG    Kendhoo
+06-27 01:38 root         DEBUG    [727101447]
+06-27 01:38 root         DEBUG    trying to load pickle
+06-27 01:38 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): en.wikipedia.org
+06-27 01:38 requests.packages.urllib3.connectionpool DEBUG    "POST /w/api.php?action=login&lgname=&lgpassword=&format=json HTTP/1.1" 200 231
+06-27 01:38 requests.packages.urllib3.connectionpool DEBUG    "POST /w/api.php?action=login&lgname=&lgpassword=&format=json&lgtoken=3558c406ba8c7a75ff37b4db3541a3b357703637+%5C HTTP/1.1" 200 53
+06-27 01:38 root         DEBUG    STARTING NOW
+06-27 01:38 root         DEBUG    final rvcontinue 20160626175058|727101448
+06-27 01:38 root         DEBUG    20160626175058|727101448
+06-27 01:44 root         DEBUG    --------
+06-27 01:44 root         DEBUG    Kendhoo
+06-27 01:44 root         DEBUG    [727101447]
+06-27 01:44 root         DEBUG    trying to load pickle
+06-27 01:44 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): en.wikipedia.org
+06-27 01:44 requests.packages.urllib3.connectionpool DEBUG    "POST /w/api.php?action=login&lgname=&lgpassword=&format=json HTTP/1.1" 200 230
+06-27 01:44 requests.packages.urllib3.connectionpool DEBUG    "POST /w/api.php?action=login&lgname=&lgpassword=&format=json&lgtoken=54af2b1278853559e9e86dec8be6b62c577037ae+%5C HTTP/1.1" 200 53
+06-27 01:44 root         DEBUG    STARTING NOW
+06-27 01:44 root         DEBUG    final rvcontinue 20160626175058|727101448
+06-27 01:44 root         DEBUG    20160626175058|727101448
+06-27 01:47 root         DEBUG    --------
+06-27 01:47 root         DEBUG    Kendhoo
+06-27 01:47 root         DEBUG    [727101447]
+06-27 01:47 root         DEBUG    trying to load pickle
+06-27 01:47 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): en.wikipedia.org
+06-27 01:47 requests.packages.urllib3.connectionpool DEBUG    "POST /w/api.php?action=login&lgname=&lgpassword=&format=json HTTP/1.1" 200 231
+06-27 01:47 requests.packages.urllib3.connectionpool DEBUG    "POST /w/api.php?action=login&lgname=&lgpassword=&format=json&lgtoken=943b42a9d2fb772ddc3670416d9a195a57703844+%5C HTTP/1.1" 200 53
+06-27 01:47 root         DEBUG    STARTING NOW
+06-27 01:47 root         DEBUG    final rvcontinue 20160626175058|727101448
+06-27 01:47 root         DEBUG    20160626175058|727101448
+06-27 01:49 root         DEBUG    --------
+06-27 01:49 root         DEBUG    Kendhoo
+06-27 01:49 root         DEBUG    [727101447]
+06-27 01:49 root         DEBUG    trying to load pickle
+06-27 01:49 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): en.wikipedia.org
+06-27 01:49 requests.packages.urllib3.connectionpool DEBUG    "POST /w/api.php?action=login&lgname=&lgpassword=&format=json HTTP/1.1" 200 230
+06-27 01:49 requests.packages.urllib3.connectionpool DEBUG    "POST /w/api.php?action=login&lgname=&lgpassword=&format=json&lgtoken=939fa7fd34816384f94ec6d00f9d9bea577038e5+%5C HTTP/1.1" 200 53
+06-27 01:49 root         DEBUG    STARTING NOW
+06-27 01:49 root         DEBUG    final rvcontinue 20160626175058|727101448
+06-27 01:49 root         DEBUG    20160626175058|727101448
+06-27 01:50 root         DEBUG    --------
+06-27 01:50 root         DEBUG    Kendhoo
+06-27 01:50 root         DEBUG    [727101447]
+06-27 01:50 root         DEBUG    trying to load pickle
+06-27 01:50 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): en.wikipedia.org
+06-27 01:50 requests.packages.urllib3.connectionpool DEBUG    "POST /w/api.php?action=login&lgname=&lgpassword=&format=json HTTP/1.1" 200 230
+06-27 01:50 requests.packages.urllib3.connectionpool DEBUG    "POST /w/api.php?action=login&lgname=&lgpassword=&format=json&lgtoken=a46b75a9f1e4fd77598779cadb0352ac57703911+%5C HTTP/1.1" 200 53
+06-27 01:50 root         DEBUG    STARTING NOW
+06-27 01:50 root         DEBUG    final rvcontinue 20160626175058|727101448
+06-27 01:50 root         DEBUG    20160626175058|727101448
+06-27 01:53 root         DEBUG    --------
+06-27 01:53 root         DEBUG    Kendhoo
+06-27 01:53 root         DEBUG    [727101447]
+06-27 01:53 root         DEBUG    trying to load pickle
+06-27 01:53 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): en.wikipedia.org
+06-27 01:53 requests.packages.urllib3.connectionpool DEBUG    "POST /w/api.php?action=login&lgname=&lgpassword=&format=json HTTP/1.1" 200 229
+06-27 01:53 requests.packages.urllib3.connectionpool DEBUG    "POST /w/api.php?action=login&lgname=&lgpassword=&format=json&lgtoken=ad8a1a021b901f5af5867f56ead7dcbb577039a8+%5C HTTP/1.1" 200 53
+06-27 01:53 root         DEBUG    STARTING NOW
+06-27 01:53 root         DEBUG    doing partial download
+06-27 01:53 root         DEBUG    0
+06-27 01:53 requests.packages.urllib3.connectionpool DEBUG    "GET /w/api.php?rvdir=newer&titles=Kendhoo&continue=&rvlimit=max&format=json&action=query&rvprop=content%7Cids%7Ctimestamp%7Csha1%7Ccomment%7Cflags%7Cuser%7Cuserid&prop=revisions HTTP/1.1" 200 10236
+06-27 01:53 root         DEBUG    doing partial download
+06-27 01:53 root         DEBUG    20120316125904|482186980
+06-27 01:53 requests.packages.urllib3.connectionpool DEBUG    "GET /w/api.php?rvcontinue=20120316125904%7C482186980&rvdir=newer&titles=Kendhoo&continue=&rvlimit=max&format=json&action=query&rvprop=content%7Cids%7Ctimestamp%7Csha1%7Ccomment%7Cflags%7Cuser%7Cuserid&prop=revisions HTTP/1.1" 200 4688
+06-27 01:53 root         DEBUG    final rvcontinue 20160626175058|727101448
+06-27 01:53 root         DEBUG    20160626175058|727101448
+06-27 01:53 root         DEBUG    pickling
+06-27 01:54 root         DEBUG    --------
+06-27 01:54 root         DEBUG    Kendhoo
+06-27 01:54 root         DEBUG    [727101447]
+06-27 01:54 root         DEBUG    trying to load pickle
+06-27 01:54 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): en.wikipedia.org
+06-27 01:54 requests.packages.urllib3.connectionpool DEBUG    "POST /w/api.php?action=login&lgname=&lgpassword=&format=json HTTP/1.1" 200 229
+06-27 01:54 requests.packages.urllib3.connectionpool DEBUG    "POST /w/api.php?action=login&lgname=&lgpassword=&format=json&lgtoken=c1837c0b42327c91e35db23894771e5b577039f6+%5C HTTP/1.1" 200 53
+06-27 01:54 root         DEBUG    STARTING NOW
+06-27 01:54 root         DEBUG    doing partial download
+06-27 01:54 root         DEBUG    0
+06-27 01:54 requests.packages.urllib3.connectionpool DEBUG    "GET /w/api.php?rvdir=newer&titles=Kendhoo&continue=&rvlimit=max&format=json&action=query&rvprop=content%7Cids%7Ctimestamp%7Csha1%7Ccomment%7Cflags%7Cuser%7Cuserid&prop=revisions HTTP/1.1" 200 10236
+06-27 01:54 root         DEBUG    doing partial download
+06-27 01:54 root         DEBUG    20120316125904|482186980
+06-27 01:54 requests.packages.urllib3.connectionpool DEBUG    "GET /w/api.php?rvcontinue=20120316125904%7C482186980&rvdir=newer&titles=Kendhoo&continue=&rvlimit=max&format=json&action=query&rvprop=content%7Cids%7Ctimestamp%7Csha1%7Ccomment%7Cflags%7Cuser%7Cuserid&prop=revisions HTTP/1.1" 200 4688
+06-27 01:54 root         DEBUG    final rvcontinue 20160626175058|727101448
+06-27 01:54 root         DEBUG    20160626175058|727101448
+06-27 01:54 root         DEBUG    pickling
+06-27 01:57 root         DEBUG    --------
+06-27 01:57 root         DEBUG    Kendhoo
+06-27 01:57 root         DEBUG    [727101447]
+06-27 01:57 root         DEBUG    trying to load pickle
+06-27 01:57 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): en.wikipedia.org
+06-27 01:57 requests.packages.urllib3.connectionpool DEBUG    "POST /w/api.php?action=login&lgname=&lgpassword=&format=json HTTP/1.1" 200 232
+06-27 01:57 requests.packages.urllib3.connectionpool DEBUG    "POST /w/api.php?action=login&lgname=&lgpassword=&format=json&lgtoken=4fa36b71f8d54c672352ff378da8364057703ac1+%5C HTTP/1.1" 200 53
+06-27 01:57 root         DEBUG    STARTING NOW
+06-27 01:57 root         DEBUG    final rvcontinue 20160626175058|727101448
+06-27 01:57 root         DEBUG    20160626175058|727101448
+06-27 01:59 root         DEBUG    --------
+06-27 01:59 root         DEBUG    Kendhoo
+06-27 01:59 root         DEBUG    [727101447]
+06-27 01:59 root         DEBUG    trying to load pickle
+06-27 01:59 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): en.wikipedia.org
+06-27 01:59 requests.packages.urllib3.connectionpool DEBUG    "POST /w/api.php?action=login&lgname=&lgpassword=&format=json HTTP/1.1" 200 229
+06-27 01:59 requests.packages.urllib3.connectionpool DEBUG    "POST /w/api.php?action=login&lgname=&lgpassword=&format=json&lgtoken=aa017ad2f247bcd330d287048716a99357703b26+%5C HTTP/1.1" 200 53
+06-27 01:59 root         DEBUG    STARTING NOW
+06-27 01:59 root         DEBUG    doing partial download
+06-27 01:59 root         DEBUG    0
+06-27 01:59 requests.packages.urllib3.connectionpool DEBUG    "GET /w/api.php?rvdir=newer&titles=Kendhoo&continue=&rvlimit=max&format=json&action=query&rvprop=content%7Cids%7Ctimestamp%7Csha1%7Ccomment%7Cflags%7Cuser%7Cuserid&prop=revisions HTTP/1.1" 200 10236
+06-27 01:59 root         DEBUG    doing partial download
+06-27 01:59 root         DEBUG    20120316125904|482186980
+06-27 01:59 requests.packages.urllib3.connectionpool DEBUG    "GET /w/api.php?rvcontinue=20120316125904%7C482186980&rvdir=newer&titles=Kendhoo&continue=&rvlimit=max&format=json&action=query&rvprop=content%7Cids%7Ctimestamp%7Csha1%7Ccomment%7Cflags%7Cuser%7Cuserid&prop=revisions HTTP/1.1" 200 4688
+06-27 01:59 root         DEBUG    final rvcontinue 20160626175058|727101448
+06-27 01:59 root         DEBUG    20160626175058|727101448
+06-27 01:59 root         DEBUG    pickling
+06-27 02:02 root         DEBUG    --------
+06-27 02:02 root         DEBUG    Kendhoo
+06-27 02:02 root         DEBUG    [727101447]
+06-27 02:02 root         DEBUG    trying to load pickle
+06-27 02:02 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): en.wikipedia.org
+06-27 02:02 requests.packages.urllib3.connectionpool DEBUG    "POST /w/api.php?action=login&lgname=&lgpassword=&format=json HTTP/1.1" 200 230
+06-27 02:02 requests.packages.urllib3.connectionpool DEBUG    "POST /w/api.php?action=login&lgname=&lgpassword=&format=json&lgtoken=25ec0e572e4c1451e8546e23b0f3056957703bc9+%5C HTTP/1.1" 200 53
+06-27 02:02 root         DEBUG    STARTING NOW
+06-27 02:02 root         DEBUG    final rvcontinue 20160626175058|727101448
+06-27 02:02 root         DEBUG    20160626175058|727101448
