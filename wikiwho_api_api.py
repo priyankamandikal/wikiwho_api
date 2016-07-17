@@ -19,8 +19,7 @@ logging.basicConfig(filename='log_api_api.log',level=logging.DEBUG, format='%(as
 
 #fs=cgi.FieldStorage()
 
-print "Content-Type: application/json"
-print
+#print "Content-Type: application/json"
 
 from Wikiwho_simple import Wikiwho
 import urllib, urllib2
@@ -37,12 +36,12 @@ from time import time
 import dateutil.parser
 from datetime import datetime, timedelta
 
+from os import path, listdir, makedirs
 
 
-
-def pickle(art, obj, path):
+def pickle(art, obj, path1):
     logging.debug("pickling")
-    f = io.open(path + art + ".p",'wb')
+    f = io.open(path1 + art + ".p",'wb')
     cPickle.dump(obj, f, protocol =-1)
     
     
@@ -70,12 +69,21 @@ def getLatestRevId(article_name):
     response = json.loads(response)
     pageid = response["query"]["pages"].keys()[0]
     revid = response["query"]["pages"][pageid]["revisions"][0]["revid"]
-    print [revid]
     
     conn.close()
     return [revid] 
 
-if __name__ == '__main__':
+def mainFunction(art):
+
+    # filedir = './../allarticles120516_enwp/'
+    # #infile in = "./../allarticles120516_enwp/list120515-100.csv"
+    
+    # for infile in listdir(filedir):
+    #     with open(filedir + infile, 'r') as f:
+            
+    #         if not path.exists(filedir + infile.partition('.')[0]):
+    #             makedirs(filedir + infile.partition('.')[0])
+    #         for line in f.readlines():
 
     time1 = time()
 
@@ -83,10 +91,12 @@ if __name__ == '__main__':
     # reviid = 601975046
     # format = "json"
 
-    try:
-        art = str(sys.argv[1])#"William_Hamilton_Maxwell"#fs.getvalue('name') #for running through browser
-    except:
-        Wikiwho.printFail(message="Name missing!")
+    # try:
+    #     #art = line.partition(";")[0]
+    #     #print art
+    #     art = str(sys.argv[1])#"William_Hamilton_Maxwell"#fs.getvalue('name') #for running through browser
+    # except:
+    #     Wikiwho.printFail(message="Name missing!")
 
     #try:
     #    revisions = [int(x) for x in fs.getvalue('revid').split('|')] #for running through browser
@@ -109,11 +119,11 @@ if __name__ == '__main__':
         
     format = "json"
 
-    try:
-        par = set(fs.getvalue('params').split('|'))
-        print 'pass 4\n'
-    except:
-        par = set()
+    #try:
+    #    par = set(fs.getvalue('params').split('|'))
+    #    print 'pass 4\n'
+    #except:
+    par = set()
 
     if par.issubset(set(['revid', 'author', 'tokenid'])) == False:
         Wikiwho.printFail(message="Wrong parameter in list!")
@@ -138,14 +148,17 @@ if __name__ == '__main__':
  
     try:
         #see if exists already, load, extend
-        f = open("./" + art + ".p",'rb')
+        #f = open(filedir + infile.partition('.')[0] + art + ".p",'rb')
+        f = open('./pickles/'+art+'.p', 'rb')
         wikiwho = cPickle.load(f)
-        path = "./"
+        path1 = "./pickles/"
+        #path1 = filedir + infile.partition('.')[0] + path.sep
 
     except:
         #create new pickle
         wikiwho = Wikiwho(art)
-        path = "./"
+        path1 = "./pickles/"
+        #path1 = filedir + infile.partition('.')[0] + path.sep
 
 
     assert (wikiwho.article == art)
@@ -208,7 +221,7 @@ if __name__ == '__main__':
             
                 wikiwho.analyseArticle(result['query']['pages'].itervalues().next()['revisions'])
             except:
-                pickle(art, wikiwho, path)
+                pickle(art, wikiwho, path1)
                 Wikiwho.printFail(message="Some problems with the JSON returned by Wikipedia!")
         if 'continue' not in result: 
             #hackish
@@ -229,12 +242,20 @@ if __name__ == '__main__':
     for r in revisions:
         if r not in wikiwho.revisions:
             wikiwho.printFail(message="Revision ID does not exist or is spam or deleted!")
+            break
 
-    wikiwho.printRevision(revisions, par)
-
+    #wikiwho.findWord(revisions, par, infile)
+    result = wikiwho.findWord(revisions, par)
+    #wikiwho.printRevision(revisions, par)
+    
 #
     logging.debug(wikiwho.rvcontinue)
     #logging.debug(wikiwho.lastrev_date)
 #
     if wikiwho.rvcontinue != start:
-        pickle(art, wikiwho, path)
+        pickle(art, wikiwho, path1)
+
+    return result
+
+if __name__ == '__main__':
+    print mainFunction('Goo language')

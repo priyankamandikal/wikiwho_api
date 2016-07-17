@@ -25,6 +25,8 @@ import getopt
 import os
 import time
 
+from os import path, listdir
+
 from copy import deepcopy
 
 import dateutil.parser
@@ -40,6 +42,17 @@ WORD_DENSITY = 10
 WORD_LEN = 100
 
 GLOBAL_ID = 0
+
+recdir = '/home/priyanka/Documents/minireview/records' + path.sep
+
+def nextrecord():
+    try:
+        records = listdir(recdir)
+        record = 1+int(max(records)[:9])
+        ### todo: check for improperly named files
+        return format(record, '09')
+    except:
+        return format(1, '09')
 
 class Wikiwho:
 
@@ -630,11 +643,11 @@ class Wikiwho:
             #response["tokens"] = dict_list
             response["message"] = message
             print simplejson.dumps(response)
-        sys.exit()
+        #sys.exit()
         #os._exit(1)
 
-    def printRevision(self, revisions, params, format = "json"):
-
+    #def findWord(self, revisions, params, infile, format = "json"):
+    def findWord(self, revisions, params, findword='recently', format = "json"):
         #print "revisions"
         #print revisions, '\n'
         
@@ -694,6 +707,101 @@ class Wikiwho:
                             dict_json = {}
                             #ss = unicode(word.value,'utf-8')
                             ss = word.value
+                            #if (ss.lower() == 'recent') or (ss.lower() == 'recently'):
+                            if (ss.lower() == findword):
+                                #with open('recent.txt', 'a') as filerecent:
+                                #    filerecent.write(infile + ' ' + self.article + '\n')
+                                return word.time[:10]
+                                #print self.article 
+                                #print sentence.value
+                                # link = 'https://en.wikipedia.org/wiki/' + self.article.replace(" ", "_")
+                                # fn = recdir + nextrecord() + 'q'
+                                # print fn
+                                # if path.exists(fn):
+                                #     print('A billion questions reached! Answer!')
+                                #     exit()
+                                # f = open(fn, 'w')
+                                # f.write('The article <a href="' + link + '">' + self.article + '</a> contains the word \'recent\' in the sentence \'<i>'+sentence.value+'</i>\'</br>How would you update it? Please provide refences for the time period.<br/><iframe src="' + link + '" align=right style="height: 40%; width: 80%;">[Can not display <a href="' + link + '">' + link + '</a> inline as an iframe here.]</iframe>')
+                                # f.close()
+        #                     dict_json['str'] = ss#.encode('utf-8')
+        #                     dict_json['revid'] = str(word.revision)
+        #                     #added
+        #                     dict_json['time'] = word.time
+        #                     if 'author' in params:
+        #                         dict_json['author'] = str(word.author_name.encode("utf-8"))
+        #                     if 'tokenid' in params:
+        #                         dict_json['tokenid'] = str(word.internal_id)
+        #                     dict_list.append(dict_json)
+        #     # if format == 'normal':
+        #     #     print text.encode('utf-8')
+        #     if format == 'json':
+        #         response["revisions"][revid]["tokens"] = dict_list
+        # response["message"] = None
+
+
+    def printRevision(self, revisions, params, format = "json"):
+
+        #print "revisions"
+        #print revisions, '\n'
+        
+        response = {}
+        response["success"] = "true"
+
+        response["revisions"] = {}
+        response["article"] = self.article
+        
+        #print "self.article"
+        #print self.article, '\n'
+
+        #print "self.revisions"
+        #print self.revisions, '\n'
+
+        for revid in self.revisions:
+
+            #print "revid", revid, '\n'
+
+            if len(revisions) == 2:
+                if revid < revisions[0] or revid > revisions[1]:
+                    continue
+            else:
+                if revid != revisions[0]:
+                    continue
+
+
+            revision = self.revisions[revid]
+            #print 'revision', revision, '\n'
+
+            response["revisions"][revid] = {"author":revision.contributor_name.encode("utf-8"), "time":revision.time, "tokens":[]}
+            dict_list =[]
+            #print "format :"
+            #print format
+            for hash_paragraph in revision.ordered_paragraphs:
+
+                text = ''
+
+                #p_copy = deepcopy(revision.paragraphs[hash_paragraph])
+                #paragraph = p_copy.pop(0) # "paragraph" will contain the hash for the paragraph.
+
+                para = revision.paragraphs[hash_paragraph]
+                paragraph = para[-1]
+
+                for hash_sentence in paragraph.ordered_sentences:
+                    sentence = paragraph.sentences[hash_sentence][-1]
+                    #sentence = paragraph.sentences[hash_sentence].pop(0) #"sentence" will contain the hash for the sentence.
+                    for word in sentence.words:
+                        dict_json = {}
+                        #ss = unicode(word.value,'utf-8')
+                        ss = word.value
+                        # if format == 'normal':
+                        #    if (word.revision == lst_revision):
+                        #        text = text + ' ' + unicode(word.value,'utf-8')
+                        #    else:
+                        #        text = text + ' ' + "@@@@" + str(word.revision) +',' + word.author_name + "@@@@" + unicode(word.value,'utf-8')
+                        #    lst_revision = word.revision
+                        #    authors.append(word.revision)
+                        if format == 'json':
+                            dict_json = {}
+                            #ss = unicode(word.value,'utf-8')
                             dict_json['str'] = ss#.encode('utf-8')
                             dict_json['revid'] = str(word.revision)
                             #added
@@ -709,6 +817,12 @@ class Wikiwho:
                 response["revisions"][revid]["tokens"] = dict_list
         response["message"] = None
         print simplejson.dumps(response)
+        #for item in dict_list:
+        #    print item['time']
+        #print dict_list[0]['time'][0:10]
+        #print type(dict_list[0]['time'])
+        #for item in simplejson.dumps(reponse["revisions"][revid]["tokens"]):
+        #    print item['time']
 
 
     # def printRevision(self,revision):

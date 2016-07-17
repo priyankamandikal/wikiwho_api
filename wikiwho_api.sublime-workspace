@@ -1,0 +1,1089 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"in",
+				"infile"
+			],
+			[
+				"str",
+				"stringcount"
+			],
+			[
+				"stringm",
+				"stringmeandate"
+			],
+			[
+				"mi",
+				"mindate"
+			],
+			[
+				"max",
+				"maxfn"
+			],
+			[
+				"v",
+				"v"
+			],
+			[
+				"mean",
+				"meanfn"
+			],
+			[
+				"dict",
+				"dictionary"
+			],
+			[
+				"it",
+				"items"
+			],
+			[
+				"file",
+				"filemodtimes"
+			],
+			[
+				"reg",
+				"regexp"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"re",
+				"replaceURLWithHTMLLinks"
+			],
+			[
+				"ifr",
+				"iframeobj"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"ifra",
+				"iframeurl"
+			],
+			[
+				"Ifra",
+				"iframeobj"
+			],
+			[
+				"onc",
+				"onclick	Attr"
+			],
+			[
+				"li",
+				"link"
+			],
+			[
+				"en",
+				"entry"
+			],
+			[
+				"jd2",
+				"jd2gcal"
+			],
+			[
+				"jd1",
+				"jd1_mean"
+			],
+			[
+				"if",
+				"ifile"
+			],
+			[
+				"jd",
+				"jd2sum"
+			],
+			[
+				"di",
+				"dict_list"
+			],
+			[
+				"revis",
+				"revisions"
+			],
+			[
+				"tim",
+				"time"
+			],
+			[
+				"time",
+				"time"
+			],
+			[
+				"rev",
+				"revision_curr"
+			],
+			[
+				"revisi",
+				"revision"
+			],
+			[
+				"arti",
+				"article"
+			],
+			[
+				"art",
+				"article"
+			],
+			[
+				"print",
+				"printRevision"
+			],
+			[
+				"el",
+				"elif"
+			],
+			[
+				"reco",
+				"recommendation"
+			],
+			[
+				"com",
+				"comment"
+			],
+			[
+				"q",
+				"qfilename"
+			],
+			[
+				"ans",
+				"answered"
+			],
+			[
+				"afile",
+				"afilename"
+			],
+			[
+				"a",
+				"afilename"
+			],
+			[
+				"pe",
+				"permission_required"
+			],
+			[
+				"dec",
+				"decorator"
+			],
+			[
+				"se",
+				"self"
+			],
+			[
+				"log",
+				"login_manager"
+			],
+			[
+				"r",
+				"role"
+			],
+			[
+				"rol",
+				"role"
+			],
+			[
+				"role",
+				"roles"
+			],
+			[
+				"C",
+				"COMMENT"
+			],
+			[
+				"pr",
+				"primary_key"
+			],
+			[
+				"ma",
+				"maxcount"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"out",
+				"output_prob"
+			],
+			[
+				"del",
+				"delta"
+			],
+			[
+				"cl",
+				"class_voc"
+			],
+			[
+				"num",
+				"num_terms"
+			],
+			[
+				"deno",
+				"denom"
+			],
+			[
+				"numer",
+				"numer2"
+			],
+			[
+				"denom",
+				"denom2"
+			],
+			[
+				"numer_",
+				"numer_list"
+			],
+			[
+				"tf",
+				"tfidfModified_fs"
+			],
+			[
+				"Df",
+				"DFin"
+			],
+			[
+				"sel",
+				"sel_indices"
+			],
+			[
+				"class_",
+				"class_doc"
+			],
+			[
+				"vecr",
+				"vectors"
+			],
+			[
+				"d",
+				"d_labels"
+			],
+			[
+				"class_v",
+				"class_voc"
+			],
+			[
+				"cla",
+				"class_vec"
+			],
+			[
+				"no",
+				"norm"
+			],
+			[
+				"X",
+				"X_train"
+			],
+			[
+				"y",
+				"y_pred"
+			],
+			[
+				"j",
+				"j"
+			],
+			[
+				"sc",
+				"score"
+			],
+			[
+				"su",
+				"syllableCount"
+			],
+			[
+				"wr",
+				"write_close"
+			],
+			[
+				"ex",
+				"expval"
+			],
+			[
+				"wi",
+				"write"
+			],
+			[
+				"cost",
+				"costDict"
+			],
+			[
+				"shop",
+				"shops"
+			],
+			[
+				"F",
+				"FruitShop"
+			],
+			[
+				"orde",
+				"orderList"
+			],
+			[
+				"fr",
+				"fruit"
+			],
+			[
+				"ord",
+				"orderList"
+			],
+			[
+				"p",
+				"pIndex"
+			],
+			[
+				"pssm",
+				"pssmList"
+			],
+			[
+				"pp",
+				"ppiFileName"
+			],
+			[
+				"pss",
+				"pssmFile"
+			],
+			[
+				"ss",
+				"ss2File"
+			],
+			[
+				"prs",
+				"prsaFile"
+			],
+			[
+				"app",
+				"append"
+			],
+			[
+				"sa",
+				"sampleOutputFile"
+			],
+			[
+				"ppi",
+				"ppiFileName"
+			],
+			[
+				"fi",
+				"ppiFileName"
+			],
+			[
+				"fol",
+				"foldFile"
+			],
+			[
+				"pos_residues",
+				"pos_residuesList"
+			],
+			[
+				"st",
+				"stderr"
+			],
+			[
+				"std",
+				"stdout"
+			],
+			[
+				"ar",
+				"arg"
+			],
+			[
+				"op",
+				"opts"
+			],
+			[
+				"te",
+				"test"
+			],
+			[
+				"for",
+				"form"
+			],
+			[
+				"Get",
+				"GET"
+			],
+			[
+				"Pas",
+				"Password"
+			],
+			[
+				"S",
+				"SubmitField"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"P",
+				"PasswordField"
+			],
+			[
+				"pas",
+				"password2"
+			],
+			[
+				"Pa",
+				"Passwords"
+			],
+			[
+				"pa",
+				"password2"
+			],
+			[
+				"E",
+				"EqualTo"
+			],
+			[
+				"n_",
+				"n_estimators"
+			],
+			[
+				"fo",
+				"form"
+			],
+			[
+				"u",
+				"username"
+			],
+			[
+				"R",
+				"Reviewer"
+			],
+			[
+				"new",
+				"newset"
+			],
+			[
+				"ru",
+				"rule"
+			],
+			[
+				"rule",
+				"ruleFile"
+			],
+			[
+				"tets",
+				"testFile"
+			],
+			[
+				"rul",
+				"ruleFile"
+			],
+			[
+				"tra",
+				"traceback"
+			],
+			[
+				"fe",
+				"feature_selection"
+			],
+			[
+				"lr",
+				"lr_classifier"
+			],
+			[
+				"pro",
+				"protein"
+			],
+			[
+				"protein",
+				"protein"
+			],
+			[
+				"ti",
+				"timestamp"
+			],
+			[
+				"arg",
+				"argv"
+			],
+			[
+				"toke",
+				"tokens"
+			],
+			[
+				"len",
+				"len_expected"
+			],
+			[
+				"le",
+				"len_expected"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "wikiwho_api_api.py",
+			"settings":
+			{
+				"buffer_size": 8773,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "allarticles120516_enwp/list120515-27.csv",
+			"settings":
+			{
+				"buffer_size": 1238699,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "recent.txt",
+			"settings":
+			{
+				"buffer_size": 355,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Wikiwho_simple.py",
+			"settings":
+			{
+				"buffer_size": 36917,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"text",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"py",
+				"Set Syntax: Python"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/priyanka/Documents/Wikipedia_Accuracy_Review/wikiwho_api/wikiwho_api",
+		"/home/priyanka/Documents/Wikipedia_Accuracy_Review/wikiwho_api/wikiwho_api/allarticles120516_enwp",
+		"/home/priyanka/Documents/Wikipedia_Accuracy_Review/wikiwho_api/wikiwho_api/structuresML"
+	],
+	"file_history":
+	[
+		"/home/priyanka/Documents/Wikipedia_Accuracy_Review/wikiwho_api/wikiwho_api/recent.txt",
+		"/home/priyanka/Documents/Wikipedia_Accuracy_Review/wikiwho_api/wikiwho_api/allarticles120516_enwp/ok.txt",
+		"/home/priyanka/Documents/Wikipedia_Accuracy_Review/wikiwho_api/wikiwho_api/log_api_api.log",
+		"/home/priyanka/Documents/Wikipedia_Accuracy_Review/wikiwho_api/wikiwho_api/Hipster-hop.p",
+		"/home/priyanka/Downloads/allarticles120516_enwp/list120515-10.csv",
+		"/home/priyanka/Downloads/allarticles120516_enwp/list120515-0.csv",
+		"/home/priyanka/Downloads/allarticles120516_enwp/list120515-3.csv",
+		"/home/priyanka/Documents/minireview/main.py",
+		"/home/priyanka/Documents/reviewsystem/reviewsystem.py",
+		"/home/priyanka/Documents/minireview/records/000000005q",
+		"/home/priyanka/Documents/Wikipedia_Accuracy_Review/flasky env",
+		"/home/priyanka/Documents/minireview/records/000000002a",
+		"/home/priyanka/Documents/minireview/.git/rebase-apply/patch",
+		"/home/priyanka/Documents/minireview/records/000000001q",
+		"/home/priyanka/Documents/minireview/records/000000003a",
+		"/home/priyanka/Documents/minireview/records/000000195qs",
+		"/home/priyanka/Documents/minireview/records/000000195q",
+		"/home/priyanka/Documents/Wikipedia_Accuracy_Review/wikiwho_api/wikiwho_api/dates_analysis.py",
+		"/home/priyanka/Documents/Wikipedia_Accuracy_Review/wikiwho_api/wikiwho_api/date.txt",
+		"/home/priyanka/Documents/Wikipedia_Accuracy_Review/wikiwho_api/wikiwho_api/out.txt",
+		"/home/priyanka/Documents/minireview/records/000000002qs",
+		"/home/priyanka/Documents/minireview/records/000000001qu",
+		"/home/priyanka/Documents/minireview/records/000000003qs",
+		"/home/priyanka/Documents/minireview/records/000000016qs",
+		"/home/priyanka/Documents/wiki_accuracy_review/WikiwhoRelationships.py",
+		"/home/priyanka/Documents/Wikipedia_Accuracy_Review/wikiwho_api/wikiwho_api/Wikiwho_simple.py",
+		"/home/priyanka/Documents/Wikipedia_Accuracy_Review/wikiwho_api/wikiwho_api/wikiwho_api_api.py",
+		"/home/priyanka/Documents/minireview/records/000000015q",
+		"/home/priyanka/Documents/minireview/records/000000210q",
+		"/home/priyanka/Documents/minireview/records/000000030q",
+		"/home/priyanka/Documents/minireview/records/000000200qs",
+		"/home/priyanka/Documents/minireview/records/000000209q",
+		"/home/priyanka/Documents/minireview/records/000000204q",
+		"/home/priyanka/Documents/minireview/records/000000206q",
+		"/home/priyanka/Documents/minireview/records/000000207q",
+		"/home/priyanka/Documents/minireview/records/000000208q",
+		"/home/priyanka/Documents/minireview/records/000000205q",
+		"/home/priyanka/Documents/minireview/records/000000202q",
+		"/home/priyanka/Documents/minireview/records/000000203q",
+		"/home/priyanka/Documents/minireview/backlog_script.py",
+		"/home/priyanka/Documents/minireview/records/000000201q",
+		"/home/priyanka/Downloads/minireview/main.py",
+		"/home/priyanka/Documents/minireview/records/000000010q",
+		"/home/priyanka/Documents/Mozilla/feedback_scraper.py",
+		"/home/priyanka/Downloads/discern/README.FIRST",
+		"/home/priyanka/Documents/Wikipedia_Accuracy_Review/wikiwho_api/wikiwho_api/structuresML/Word.py",
+		"/home/priyanka/Documents/Wikipedia_Accuracy_Review/wikiwho_api/wikiwho_api/structuresML/Revision.py",
+		"/home/priyanka/Downloads/minireview/templates/index.html",
+		"/home/priyanka/Downloads/minireview/templates/layout.html",
+		"/home/priyanka/Downloads/minireview/templates/ask.html",
+		"/home/priyanka/Downloads/minireview/templates/done.html",
+		"/home/priyanka/Documents/wikireview/app/models.py",
+		"/home/priyanka/Documents/flasky/app/templates/auth/login.html",
+		"/home/priyanka/Documents/flasky/app/templates/edit_profile.html",
+		"/home/priyanka/Documents/flasky/app/templates/user.html",
+		"/home/priyanka/Documents/flasky/app/templates/index.html",
+		"/home/priyanka/Documents/flasky/app/templates/base.html",
+		"/home/priyanka/Documents/flasky/app/auth/views.py",
+		"/home/priyanka/Documents/Wikireview Logs",
+		"/home/priyanka/Documents/Flasky Logs",
+		"/home/priyanka/Documents/wikireview/migrations/alembic.ini",
+		"/home/priyanka/Documents/wikireview/migrations/env.py",
+		"/home/priyanka/Documents/wikireview/manage.py",
+		"/home/priyanka/Documents/flasky/migrations/alembic.ini",
+		"/home/priyanka/Documents/wikireview/app/templates/403.html",
+		"/home/priyanka/Downloads/discern/sreps",
+		"/home/priyanka/Downloads/discern/INSTALL",
+		"/home/priyanka/Downloads/discern/USERDOC",
+		"/home/priyanka/Documents/reviewsystem/answered/000000003a",
+		"/home/priyanka/Documents/reviewsystem/recommend/000000001q",
+		"/home/priyanka/Documents/reviewsystem/recommend/000000001a",
+		"/home/priyanka/Documents/reviewsystem/recommend/000000001c",
+		"/home/priyanka/Documents/reviewsystem/recommend/000000002q",
+		"/home/priyanka/Documents/reviewsystem/recommend/000000002a",
+		"/home/priyanka/Documents/reviewsystem/recommend/000000002c",
+		"/home/priyanka/Documents/reviewsystem/recommend/000000003a",
+		"/home/priyanka/Documents/reviewsystem/recommend/000000003q",
+		"/home/priyanka/Documents/reviewsystem/recommend/000000003e",
+		"/home/priyanka/Documents/reviewsystem/recommend/000000003c",
+		"/home/priyanka/Documents/reviewsystem/answered/000000003q",
+		"/home/priyanka/Documents/reviewsystem/answered/000000001q",
+		"/home/priyanka/Documents/reviewsystem/answered/000000000q",
+		"/home/priyanka/Documents/DOP/protein_interactions/test72/testScript_final.py",
+		"/home/priyanka/Documents/reviewsystem/000000003q",
+		"/home/priyanka/Documents/reviewsystem/000000002q",
+		"/home/priyanka/Documents/reviewsystem/000000001q",
+		"/home/priyanka/Documents/reviewsystem/000000000q",
+		"/home/priyanka/Documents/reviewsystem.py",
+		"/home/priyanka/Downloads/asgn1.py",
+		"/home/priyanka/Downloads/_bcb5c6658381416d19b01bfc1d3993b5_IntegerArray.txt",
+		"/home/priyanka/Documents/wikireview/tests/test_reviewer_model.py",
+		"/home/priyanka/Documents/wikireview/app/main/errors.py",
+		"/home/priyanka/Documents/wikireview/app/main/__init__.py",
+		"/home/priyanka/Documents/wikireview/app/decorators.py",
+		"/home/priyanka/Downloads/accuracyreview (1).txt",
+		"/home/priyanka/Downloads/accuracyreview.txt",
+		"/home/priyanka/Documents/wikireview/requirements.txt",
+		"/home/priyanka/Desktop/project/branch_file.txt",
+		"/home/priyanka/Documents/wikireview/migrations/versions/c63b38933176_added_table_roles.py",
+		"/home/priyanka/Documents/flasky/app/models.py",
+		"/home/priyanka/Documents/Wikipedia_Accuracy_Review/wikiwho_api/wikiwho_api/William_Hamilton_Maxwell.p",
+		"/home/priyanka/Documents/flasky/manage.py",
+		"/home/priyanka/Documents/Wikipedia_Accuracy_Review/wiki writeup",
+		"/home/priyanka/Downloads/basic.ics",
+		"/home/priyanka/Downloads/first.py",
+		"/home/priyanka/Downloads/UPX0",
+		"/home/priyanka/Desktop/PS stations",
+		"/home/priyanka/Documents/IT Training/bracket_reversal.cpp",
+		"/home/priyanka/Documents/IT Training/session3.cpp",
+		"/home/priyanka/Documents/IT Training/session2.cpp",
+		"/home/priyanka/Documents/IT Training/session1.cpp",
+		"/home/priyanka/anaconda/lib/python2.7/site-packages/binstar_client/commands/authorizations.py",
+		"/home/priyanka/Documents/flasky/app/main/errors.py",
+		"/home/priyanka/Dropbox/New folder/great words.txt",
+		"/home/priyanka/Dropbox/quora philosophy.txt",
+		"/home/priyanka/Dropbox/random.txt",
+		"/home/priyanka/Downloads/classifyAndConfusionMatrix.py",
+		"/home/priyanka/Downloads/COMPILED_RESULTS",
+		"/home/priyanka/Documents/4-2/AI/AI doubts",
+		"/home/priyanka/Documents/4-2/DL/Project/cifar10model/test1.txt",
+		"/home/priyanka/Documents/4-2/DL/Project/cifar10model/classify.py",
+		"/home/priyanka/Documents/4-2/DL/Project/cifar10model/cifar10_quick_solver.prototxt",
+		"/home/priyanka/Documents/4-2/DL/Project/cifar10model/loss_lr01.csv",
+		"/home/priyanka/Documents/4-2/DL/Project/cifar10model/cifar10_quick_train_test.prototxt",
+		"/home/priyanka/Documents/4-2/DL/Project/cifar10model/cifar10_quick.prototxt",
+		"/home/priyanka/Documents/4-2/DL/Project/Presentation",
+		"/home/priyanka/Downloads/varsheet codes/symbol.c",
+		"/home/priyanka/Downloads/varsheet codes/ll"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"session",
+			"params",
+			"r2",
+			"token",
+			"path",
+			"listdir",
+			"print",
+			"to",
+			"qu",
+			"}}}",
+			"readlin",
+			"qs",
+			"count",
+			"mindate",
+			"escape",
+			"q",
+			"max",
+			"min",
+			"q",
+			"print",
+			"article",
+			"rege",
+			"line",
+			"q",
+			"safe",
+			"race",
+			"tokens",
+			"revisions",
+			"filete",
+			"par",
+			"time",
+			"revision_curr",
+			"revsion_curr",
+			"timestamp",
+			"wikiwho",
+			"ordered_pa",
+			"params",
+			"par",
+			"wikiwho",
+			"except",
+			"-q",
+			"# question came from ./asked\n	if qfilename[3] == 's':\n		afilename = qfilename[:-1] + 'a'\n\n	\n	# question came from ./answered\n	elif qfilename[3] == 'n':\n		cfilename = qfilename[:-1] + 'c'\n\n	# question came from tied\n	else:",
+			"flasky",
+			"context.configure",
+			"configure",
+			"Context",
+			"gamergate",
+			"dump",
+			"lmdb",
+			"top_num",
+			"indent",
+			"0.917",
+			"and",
+			")))\n",
+			"etc",
+			"0.917",
+			"int",
+			".int",
+			"0.917",
+			"fold1fv",
+			"lr",
+			"Flasky",
+			"sigm",
+			"lr",
+			"svm",
+			"lr",
+			"svm",
+			"1fbe01fe",
+			"f3845767",
+			"01fe",
+			"MCC:  -",
+			"0.56837944664",
+			"MCC:  -",
+			"0.56837944664",
+			"0.0101867572156",
+			"0.56837944664",
+			"sigmoid",
+			"match",
+			"bucket",
+			"ystep",
+			"bucket",
+			"buckets",
+			"run",
+			"id",
+			"label",
+			"wee",
+			"count",
+			"label",
+			"we",
+			"wee",
+			"senti",
+			";\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"q",
+			"count",
+			"mean",
+			"max",
+			"# question came from ./asked\n	if qfilename[3] == 's':\n		afilename = qfilename[:-1] + 'a'\n\n	\n	# question came from ./answered\n	elif qfilename[3] == 'n':\n		cfilename = qfilename[:-1] + 'c'\n\n	# question came from tied\n	else:",
+			"sampleOutput",
+			"WIKIREVIEW",
+			"Wikireview",
+			"svm"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "wikiwho_api_api.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8773,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2874,
+								2874
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1152.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "allarticles120516_enwp/list120515-27.csv",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1238699,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								17702,
+								17702
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 10902.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "recent.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 355,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								329,
+								329
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Wikiwho_simple.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 36917,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								29882,
+								29882
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 11799.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 28.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "wikiwho_api.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 205.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
